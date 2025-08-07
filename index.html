@@ -236,7 +236,7 @@ For thou art the song in my silence, the moon to my night, and the gentle truth 
 
   <script>
 
-    var musik = "music/music1.mp3";
+    var musik = "music/music2.mp3";
 
   </script>
   <script> AOS.init({once: true, }); </script>
@@ -245,9 +245,9 @@ For thou art the song in my silence, the moon to my night, and the gentle truth 
   audio.loop = true; audio.autoplay = true; function mulai() {audio.play(); 
   document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;"; 
   setTimeout(function () {document.querySelector(".open").style.display = "none";}, 1000);} function wa(isi) 
-  {window.open("https://api.whatsapp.com/send?text= " + isi);} async function tanya() {var {value: kado} = await 
+  {window.open("https://t.me/meraajut/send?text= " + isi);} async function tanya() {var {value: kado} = await 
   swal.fire({title: "Dihari yang spesial ini kamu lagi pengen apa?", input: "text", showCancelButton: false, });
-   if (kado) {await swal.fire("kirim jawabannya ke wa aku ya"); wa(kado);} else 
+   if (kado) {await swal.fire("kirim jawabannya ke aku ya"); wa(kado);} else 
    {await swal.fire("isi dong! enak aja main kosongin aja!"); tanya();} } </script>
   <p class="wm"><span><a href="">From mine own self, unto thee who art most special.</a></span></p>
 </body>
