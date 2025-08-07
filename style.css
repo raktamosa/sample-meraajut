@@ -1,0 +1,22 @@
+.body {
+    background-image: url(foto/univers1.jpg);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    width: 3em auto;
+    animation: animasiBackground 60s ease infinite alternate;
+}
+
+@keyframes animasiBackground {
+    from {
+        background-size: 100%;
+        background-position-x: 0px;
+        background-position-y: 0px;
+    }
+
+    to {
+        background-size: 500%;
+        background-position-x: -2500px;
+        background-position-y: -5000px;
+    }
+}
